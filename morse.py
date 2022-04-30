@@ -7,6 +7,12 @@ morse_dict = {'A': '.-', 'B': '-...', 'C': '-.-.', 'D': '-..', 'E': '.', 'F': '.
 
 
 def translate(string):
+    """
+    This method takes a string as an argument and translates it into morse code; putting spaces in between letters and
+    slashes in between words. This method can handle letters and numbers plus some special characters: ,.?/-()
+    :param string: this parameter is the string that is passed into the method
+    :return: a string that contains the translated phrase with appropriate spaces and slashes
+    """
     sentence_list = []
     for char in string:
         if char.isalpha():
