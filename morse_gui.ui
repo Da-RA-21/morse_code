@@ -10,6 +10,18 @@
     <height>486</height>
    </rect>
   </property>
+  <property name="minimumSize">
+   <size>
+    <width>387</width>
+    <height>486</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>387</width>
+    <height>486</height>
+   </size>
+  </property>
   <property name="windowTitle">
    <string>Morse Code</string>
   </property>
